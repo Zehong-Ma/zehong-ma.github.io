@@ -18,8 +18,8 @@ Educations
 * Aug. 2022-now. Ph.D. in the Department of Computer Science and Technology, Peking University, China.
 
 # Publications
-
-+ Text-Guided Visual Feature Refinement for Text-Based Person Search (ICMR Oral)  [[pdf]](./files/Text-Guided Visual Feature Refinement for Text-Based Person Search.pdf)
++ OVMR: Open-Vocabulary Recognition with Multi-Modal References (CVPR24) [[pdf]](https://arxiv.org/pdf/2406.04675)
++ Text-Guided Visual Feature Refinement for Text-Based Person Search (ICMR21 Oral)  [[pdf]](./files/Text-Guided Visual Feature Refinement for Text-Based Person Search.pdf)
 
 Honors and Awards
 ======
