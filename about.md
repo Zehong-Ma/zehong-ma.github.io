@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am now a second-year Ph.D. student in [VMC group](http://www.pkuvmc.com/) under the supervision of Professor Shiliang Zhang in Peking University, Beijing, China. 
+I am now a third-year Ph.D. student in [VMC group](http://www.pkuvmc.com/) under the supervision of Professor Shiliang Zhang in Peking University, Beijing, China. 
 
 My research interests are computer vision, multimodal machine learning and etc.
 
