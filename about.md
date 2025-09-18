@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am now a third-year Ph.D. student in [VMC group](http://www.pkuvmc.com/) under the supervision of Professor Shiliang Zhang at Peking University, Beijing, China. 
+I am now a fourth-year Ph.D. student in [VMC group](http://www.pkuvmc.com/) under the supervision of Professor Shiliang Zhang at Peking University, Beijing, China. 
 
 My research interests are computer vision and multimodal representation learning, including open-vocabulary recognition, multimodal large language model, and image/video generation.
 
@@ -18,6 +18,7 @@ Educations
 * Aug. 2022-now. Ph.D. in the School of Computer Science, Peking University, China.
 
 # Publications
++ MagCache: Fast Video Generation with Magnitude-Aware Cache (在投) [[pdf]](https://arxiv.org/pdf/2506.09045)
 + Efficient Multi-modal Long Context Learning for Training-free Adaptation (ICML25) [[pdf]](https://arxiv.org/pdf/2505.19812)
 + Multi-modal Reference Learning for Fine-grained Text-to-Image Retrieval (TMM25) [[pdf]](https://arxiv.org/pdf/2504.07718)
 + OVMR: Open-Vocabulary Recognition with Multi-Modal References (CVPR24) [[pdf]](https://arxiv.org/pdf/2406.04675)
