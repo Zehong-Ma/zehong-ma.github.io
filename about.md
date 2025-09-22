@@ -18,7 +18,7 @@ Educations
 * Aug. 2022-now. Ph.D. in the School of Computer Science, Peking University, China.
 
 # Publications
-+ MagCache: Fast Video Generation with Magnitude-Aware Cache (在投) [[pdf]](https://arxiv.org/pdf/2506.09045)
++ MagCache: Fast Video Generation with Magnitude-Aware Cache (NeurIPS25) [[pdf]](https://arxiv.org/pdf/2506.09045)
 + Efficient Multi-modal Long Context Learning for Training-free Adaptation (ICML25) [[pdf]](https://arxiv.org/pdf/2505.19812)
 + Multi-modal Reference Learning for Fine-grained Text-to-Image Retrieval (TMM25) [[pdf]](https://arxiv.org/pdf/2504.07718)
 + OVMR: Open-Vocabulary Recognition with Multi-Modal References (CVPR24) [[pdf]](https://arxiv.org/pdf/2406.04675)
