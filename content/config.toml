@@ -1,29 +1,28 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Zehong Ma"
+description = "Ph.D. student at the School of Computer Science of Peking University."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "Dec 28, 2025"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Zehong Ma"
+title = "Ph.D. Student"
+institution = "Peking University"
+avatar = "/avatar_me.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
+email = "zehongma@stu.pku.edu.cn"
+location = "Beijing, China"
 location_url = "https://maps.google.com"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Peking University, Beijing, China"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = "https://scholar.google.com/citations?user=JFfKOH4AAAAJ&hl=zh-CN"
+orcid = "https://orcid.org/0009-0005-1533-2651"
+github = "https://github.com/Zehong-Ma"
+linkedin = "https://www.linkedin.com/in/zehongma2000/"
 
 [features]
 # Show a like button on the about page
