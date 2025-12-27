@@ -3,25 +3,46 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Top Ten Students of the Year"
+subtitle = "NERCVT, Peking University"
 date = "2025"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+title = "Merit Student"
+subtitle = "Peking University"
+date = "2025"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "China National Scholarship"
+date = "2019,2020,2021"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Outstanding Student Model of Northwestern Polytechnical University"
+date = "2020"
+
+[[items]]
+title = "National Champion of China Robotics Competition Basketball Robot Project(Autonomy&Challenge)"
+date = "2020"
+
+[[items]]
+title = "National First Prize of DJI RoboMaster Competition"
+date = "2020"
+
+
+# [[items]]
+# title = "Example Award"
+# subtitle = "Organization"
+# date = "2024"
+# content = "Description of the award."
+
+# [[items]]
+# title = "Example Award"
+# subtitle = "Organization"
+# date = "2023"
+# content = "Description of the award."
+
+# [[items]]
+# title = "Example Award"
+# subtitle = "Organization"
+# date = "2022"
+# content = "Description of the award."
