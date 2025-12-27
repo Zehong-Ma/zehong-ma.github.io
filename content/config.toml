@@ -1,11 +1,11 @@
 [site]
-title = "Zehong Ma"
+title = "Zehong Ma (马泽红)"
 description = "Ph.D. student at the School of Computer Science of Peking University."
-favicon = "/bird_avatar.png"
+favicon = "/bird_avatar.jpg"
 last_updated = "Dec 28, 2025"
 
 [author]
-name = "Zehong Ma (马泽红)"
+name = "Zehong Ma"
 title = "Ph.D. Student"
 institution = "Peking University"
 avatar = "/avatar_me.jpg"
@@ -43,11 +43,11 @@ type = "page"
 target = "publications"
 href = "/publications"
 
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
+# [[navigation]]
+# title = "Teaching"
+# type = "page"
+# target = "teaching"
+# href = "/teaching"
 
 [[navigation]]
 title = "Awards"
@@ -61,8 +61,8 @@ type = "page"
 target = "services"
 href = "/services"
 
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"
+# [[navigation]]
+# title = "CV"
+# type = "page"
+# target = "cv"
+# href = "/cv"

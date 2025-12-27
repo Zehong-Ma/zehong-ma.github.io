@@ -1,6 +1,6 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Honors and Awards"
+# description = "Honors and awards I have received."
 
 [[items]]
 title = "Top Ten Students of the Year"
@@ -21,7 +21,7 @@ title = "Outstanding Student Model of Northwestern Polytechnical University"
 date = "2020"
 
 [[items]]
-title = "National Champion of China Robotics Competition Basketball Robot Project(Autonomy&Challenge)"
+title = "National Champion of China Robotics Competition in Basketball Robot"
 date = "2020"
 
 [[items]]

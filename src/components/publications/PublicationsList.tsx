@@ -9,11 +9,19 @@ import {
     CalendarIcon,
     BookOpenIcon,
     ClipboardDocumentIcon,
-    DocumentTextIcon
+    DocumentTextIcon,
+    GlobeAltIcon, // 用于 Project Page
 } from '@heroicons/react/24/outline';
 import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
 import { cn } from '@/lib/utils';
+
+// GitHub 图标组件
+const GithubIcon = ({ className }: { className?: string }) => (
+    <svg fill="currentColor" viewBox="0 0 24 24" className={className} aria-hidden="true">
+        <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
+    </svg>
+);
 
 interface PublicationsListProps {
     config: PublicationPageConfig;
@@ -73,7 +81,6 @@ export default function PublicationsList({ config, publications, embedded = fals
 
             {/* Search and Filter Controls */}
             <div className="mb-8 space-y-4">
-                {/* ... (keep existing controls) ... */}
                 <div className="flex flex-col sm:flex-row gap-4">
                     <div className="relative flex-grow">
                         <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-neutral-400" />
@@ -108,7 +115,6 @@ export default function PublicationsList({ config, publications, embedded = fals
                             className="overflow-hidden"
                         >
                             <div className="p-4 bg-neutral-50 dark:bg-neutral-800/50 rounded-lg border border-neutral-200 dark:border-neutral-800 flex flex-wrap gap-6">
-                                {/* Year Filter */}
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-neutral-700 dark:text-neutral-300 flex items-center">
                                         <CalendarIcon className="h-4 w-4 mr-1" /> Year
@@ -118,9 +124,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                             onClick={() => setSelectedYear('all')}
                                             className={cn(
                                                 "px-3 py-1 text-xs rounded-full transition-colors",
-                                                selectedYear === 'all'
-                                                    ? "bg-accent text-white"
-                                                    : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-700"
+                                                selectedYear === 'all' ? "bg-accent text-white" : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100"
                                             )}
                                         >
                                             All
@@ -131,9 +135,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 onClick={() => setSelectedYear(year)}
                                                 className={cn(
                                                     "px-3 py-1 text-xs rounded-full transition-colors",
-                                                    selectedYear === year
-                                                        ? "bg-accent text-white"
-                                                        : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-700"
+                                                    selectedYear === year ? "bg-accent text-white" : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100"
                                                 )}
                                             >
                                                 {year}
@@ -142,7 +144,6 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     </div>
                                 </div>
 
-                                {/* Type Filter */}
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-neutral-700 dark:text-neutral-300 flex items-center">
                                         <BookOpenIcon className="h-4 w-4 mr-1" /> Type
@@ -152,9 +153,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                             onClick={() => setSelectedType('all')}
                                             className={cn(
                                                 "px-3 py-1 text-xs rounded-full transition-colors",
-                                                selectedType === 'all'
-                                                    ? "bg-accent text-white"
-                                                    : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-700"
+                                                selectedType === 'all' ? "bg-accent text-white" : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100"
                                             )}
                                         >
                                             All
@@ -165,9 +164,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 onClick={() => setSelectedType(type)}
                                                 className={cn(
                                                     "px-3 py-1 text-xs rounded-full capitalize transition-colors",
-                                                    selectedType === type
-                                                        ? "bg-accent text-white"
-                                                        : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-700"
+                                                    selectedType === type ? "bg-accent text-white" : "bg-white dark:bg-neutral-800 text-neutral-600 hover:bg-neutral-100"
                                                 )}
                                             >
                                                 {type.replace('-', ' ')}
@@ -181,7 +178,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                 </AnimatePresence>
             </div>
 
-            {/* Publications Grid */}
+            {/* Publications List */}
             <div className="space-y-6">
                 {filteredPublications.length === 0 ? (
                     <div className="text-center py-12 text-neutral-500">
@@ -237,15 +234,28 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         </p>
                                     )}
 
+                                    {/* Action Buttons / Links */}
                                     <div className="flex flex-wrap gap-2 mt-auto">
-                                        {pub.doi && (
+                                        {pub.pdfUrl && (
                                             <a
-                                                href={`https://doi.org/${pub.doi}`}
+                                                href={pub.pdfUrl}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
-                                                DOI
+                                                <DocumentTextIcon className="h-3.5 w-3.5 mr-1.5" />
+                                                PDF
+                                            </a>
+                                        )}
+                                        {pub.url && (
+                                            <a
+                                                href={pub.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <GlobeAltIcon className="h-3.5 w-3.5 mr-1.5" />
+                                                Project Page
                                             </a>
                                         )}
                                         {pub.code && (
@@ -255,6 +265,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
+                                                <GithubIcon className="h-3.5 w-3.5 mr-1.5" />
                                                 Code
                                             </a>
                                         )}
@@ -268,7 +279,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                         : "bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white"
                                                 )}
                                             >
-                                                <DocumentTextIcon className="h-3 w-3 mr-1.5" />
+                                                <DocumentTextIcon className="h-3.5 w-3.5 mr-1.5" />
                                                 Abstract
                                             </button>
                                         )}
@@ -282,44 +293,41 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                         : "bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white"
                                                 )}
                                             >
-                                                <BookOpenIcon className="h-3 w-3 mr-1.5" />
+                                                <BookOpenIcon className="h-3.5 w-3.5 mr-1.5" />
                                                 BibTeX
                                             </button>
                                         )}
                                     </div>
 
                                     <AnimatePresence>
-                                        {expandedAbstractId === pub.id && pub.abstract ? (
+                                        {expandedAbstractId === pub.id && pub.abstract && (
                                             <motion.div
-                                                key="abstract"
                                                 initial={{ opacity: 0, height: 0 }}
                                                 animate={{ opacity: 1, height: 'auto' }}
                                                 exit={{ opacity: 0, height: 0 }}
                                                 className="overflow-hidden mt-4"
                                             >
                                                 <div className="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-4 border border-neutral-200 dark:border-neutral-700">
-                                                    <p className="text-sm text-neutral-600 dark:text-neutral-500 leading-relaxed">
+                                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed italic">
                                                         {pub.abstract}
                                                     </p>
                                                 </div>
                                             </motion.div>
-                                        ) : null}
-                                        {expandedBibtexId === pub.id && pub.bibtex ? (
+                                        )}
+                                        {expandedBibtexId === pub.id && pub.bibtex && (
                                             <motion.div
-                                                key="bibtex"
                                                 initial={{ opacity: 0, height: 0 }}
                                                 animate={{ opacity: 1, height: 'auto' }}
                                                 exit={{ opacity: 0, height: 0 }}
                                                 className="overflow-hidden mt-4"
                                             >
                                                 <div className="relative bg-neutral-50 dark:bg-neutral-800 rounded-lg p-4 border border-neutral-200 dark:border-neutral-700">
-                                                    <pre className="text-xs text-neutral-600 dark:text-neutral-500 overflow-x-auto whitespace-pre-wrap font-mono">
+                                                    <pre className="text-xs text-neutral-600 dark:text-neutral-400 overflow-x-auto whitespace-pre-wrap font-mono">
                                                         {pub.bibtex}
                                                     </pre>
                                                     <button
                                                         onClick={() => {
                                                             navigator.clipboard.writeText(pub.bibtex || '');
-                                                            // Optional: Show copied feedback
                                                         }}
                                                         className="absolute top-2 right-2 p-1.5 rounded-md bg-white dark:bg-neutral-700 text-neutral-500 hover:text-accent shadow-sm border border-neutral-200 dark:border-neutral-600 transition-colors"
                                                         title="Copy to clipboard"
@@ -328,12 +336,12 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                     </button>
                                                 </div>
                                             </motion.div>
-                                        ) : null}
+                                        )}
                                     </AnimatePresence>
                                 </div>
                             </div>
                         </motion.div>
-                    ))
+                    )) 
                 )}
             </div>
         </motion.div>

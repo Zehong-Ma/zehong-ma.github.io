@@ -1,9 +1,9 @@
 type = "card"
 title = "Services"
-description = "Professional services and community involvement."
+# description = "Professional services and community involvement."
 
 [[items]]
 title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+subtitle = "NeurIPS, CVPR, TIP, TMM, TMLR, CVIU"
+date = "2023 - Present"
+# content = "Reviewed papers for..."

@@ -1,26 +1,26 @@
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Peking University**, Ph.D. in School of Computer Science, *2022 - Present*
+- Research focus: Multi-modal Understanding and Generation
+- Supervisor: Prof. [Shiliang Zhang](www.pkuvmc.com)
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
-
+**Northwestern Polytechnical University**, BSc in School of Software, *2018 - 2022*
+- Outstanding Graduate of Shaanxi Province
+- Supervisor: Prof. Peng Wang
+<!-- 
 ## Experience
 
 **Example Role**
 Company/Institution
 *2023 - 2024*
 - Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+- Utilized skills to solve problems. -->
 
-## Skills
+<!-- ## Skills
 
 - **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
 - **Languages:** English (Native), French (Fluent)
 
 ## Awards & Honors
 
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- **First Prize in Example Competition** - Committee of Example (*2024*) -->
