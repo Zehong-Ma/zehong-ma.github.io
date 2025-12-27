@@ -29,7 +29,7 @@ linkedin = "https://www.linkedin.com/in/zehongma2000/"
 enable_likes = true
 
 # Display all subpages on a single page
-enable_one_page_mode = false
+enable_one_page_mode = true
 
 [[navigation]]
 title = "About"
