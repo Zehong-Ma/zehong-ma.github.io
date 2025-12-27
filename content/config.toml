@@ -1,11 +1,11 @@
 [site]
 title = "Zehong Ma"
 description = "Ph.D. student at the School of Computer Science of Peking University."
-favicon = "/favicon.svg"
+favicon = "/bird_avatar.png"
 last_updated = "Dec 28, 2025"
 
 [author]
-name = "Zehong Ma"
+name = "Zehong Ma (马泽红)"
 title = "Ph.D. Student"
 institution = "Peking University"
 avatar = "/avatar_me.jpg"
