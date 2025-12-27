@@ -3,9 +3,9 @@ title = "About Me"
 
 [profile]
 research_interests = [
-  "Image/Video Generation"
+  "Image/Video Generation",
   "Multi-modal Large Language Model",
-  "Open-Vocabulary Recognition"
+  "Open-Vocabulary Recognition",
 ]
 
 [[sections]]
@@ -14,12 +14,12 @@ type = "markdown"
 source = "bio.md"
 title = "About"
 
-[[sections]]
-id = "featured_publications"
-type = "publications"
-title = "Selected Publications"
-filter = "selected"
-limit = 5
+# [[sections]]
+# id = "featured_publications"
+# type = "publications"
+# title = "Selected Publications"
+# filter = "selected"
+# limit = 5
 
 [[sections]]
 id = "news"
