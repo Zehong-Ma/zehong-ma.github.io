@@ -1,11 +1,11 @@
 type = "about"
-title = "About"
+title = "About Me"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Image/Video Generation"
+  "Multi-modal Large Language Model",
+  "Open-Vocabulary Recognition"
 ]
 
 [[sections]]
