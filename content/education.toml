@@ -1,10 +1,12 @@
+type = "card"
+title = "Education"
 
-[[education]]
-title = "Peking University, Ph.D. in School of Computer Science"
-subtitle = "Supervised by Prof. Shiliang Zhang"
+[[items]]
+title = "Peking University"
+subtitle = "Ph.D. in School of Computer Science, Supervised by Prof. Shiliang Zhang"
 date = "2022 - Present"
 
-[[education]]
-title = "Northwestern Polytechnical University, BSc in School of Software"
-subtitle = "Outstanding Graduate of Shaanxi Province, Practice Research Advised by Prof. Peng Wang"
+[[items]]
+title = "Northwestern Polytechnical University"
+subtitle = " BSc in School of Software. Practice Research Advised by Prof. Peng Wang"
 date = "2018 - 2022"

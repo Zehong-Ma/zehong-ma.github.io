@@ -27,9 +27,3 @@ type = "list"
 title = "News"
 source = "news.toml"
 
-[[sections]]
-id = "education"
-type = "card"
-title = "Education"
-source = "education.toml"
-

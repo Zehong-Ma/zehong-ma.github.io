@@ -38,6 +38,12 @@ target = "about"
 href = "/"
 
 [[navigation]]
+title = "Education"
+type = "page"
+target = "education"
+href = "/education"
+
+[[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
@@ -54,6 +60,7 @@ title = "Awards"
 type = "page"
 target = "awards"
 href = "/awards"
+
 
 [[navigation]]
 title = "Services"
