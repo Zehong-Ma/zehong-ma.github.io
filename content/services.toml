@@ -4,6 +4,6 @@ title = "Services"
 
 [[items]]
 title = "Reviewer"
-subtitle = "NeurIPS, CVPR, TIP, TMM, TMLR, CVIU"
+subtitle = "NeurIPS, CVPR, ICML, TIP, TMM, TMLR, CVIU"
 date = "2023 - Present"
 # content = "Reviewed papers for..."

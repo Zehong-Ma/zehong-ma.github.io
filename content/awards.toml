@@ -13,19 +13,21 @@ subtitle = "Peking University"
 date = "2025"
 
 [[items]]
-title = "China National Scholarship"
+title = "National Scholarship"
 date = "2019,2020,2021"
 
 [[items]]
-title = "Outstanding Student Model of Northwestern Polytechnical University"
+title = "Outstanding Student Model"
+subtitle = "Northwestern Polytechnical University"
 date = "2020"
 
 [[items]]
-title = "National Champion of China Robotics Competition in Basketball Robot"
+title = "National Champion of China Robotics Competition"
+subtitle = "Basketball Robot"
 date = "2020"
 
 [[items]]
-title = "National First Prize of DJI RoboMaster Competition"
+title = "National First Prize of RoboMaster Competition"
 date = "2020"
 
 

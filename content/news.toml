@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-02"
+content = "🎉 DeCo about freq-decoupled pixel diffusion has been accepted by CVPR 2026"
+
+[[news]]
 date = "2025-09"
 content = "🎉 MagCache about fast video generation has been accepted by NeurIPS 2025"
 
