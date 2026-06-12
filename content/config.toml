@@ -44,6 +44,12 @@ target = "education"
 href = "/education"
 
 [[navigation]]
+title = "Internship"
+type = "page"
+target = "internship"
+href = "/internship"
+
+[[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
