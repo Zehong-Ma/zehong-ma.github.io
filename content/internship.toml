@@ -1,0 +1,14 @@
+type = "card"
+title = "Internship"
+
+[[items]]
+title = "ByteDance Seed"
+subtitle = "Research Intern, Seedance Team"
+date = "2026.03 - Present"
+content = "Working on VAE and video generation."
+
+[[items]]
+title = "Huawei"
+subtitle = "Research Intern"
+date = "2025.03 - 2025.12"
+content = "Worked on diffusion acceleration and end-to-end pixel diffusion models."
