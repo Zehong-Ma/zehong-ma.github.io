@@ -3,6 +3,11 @@ title = "Honors and Awards"
 # description = "Honors and awards I have received."
 
 [[items]]
+title = "President’s Scholarship"
+subtitle = "Peking University"
+date = "2026"
+
+[[items]]
 title = "Top Ten Students of the Year"
 subtitle = "NERCVT, Peking University"
 date = "2025"
